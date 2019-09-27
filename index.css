@@ -53,22 +53,31 @@ h1{
         border:none;
         width:100%;
       }
+.contact{
+    font-family: 'Cardo', serif;
+    letter-spacing: 1px;
+   font-size: 4em;
+    text-shadow: -2px 2px 0px #000;
+
+}
 
 .submit{
     color: #fff;;
     font-size: 1.2em;
     text-decoration: none;
     border-radius: 5px;
-    margin-top:6px;
     padding: 15px 40px;
     background-color: rgb(0, 0, 0);
     border: 1px solid #fff;
     transition: .3s;
     display:block;
+    margin:0 auto;
 }
 .submit:hover {
-    background-color: purple;
+    background-color: lightpink;
     border: 1px solid purple;
+    color:black;
+
 }
 .footer {
     display: flex;
@@ -110,14 +119,12 @@ h1{
 
 #who .btn-who {
     background-color:pink;
-    color:#fff;
     width:50%;
 }
 
 #who .btn-who:hover {
     background-color:transparent;
     border:1px solid purple;
-    color:magenta;
 }
 .bake{
     

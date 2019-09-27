@@ -1,0 +1,76 @@
+{
+"products":[ 
+    {
+    "productName":"DripCake",
+    "price":"$69",
+    "description":"Drip cakes for every occasion. We offer: Double Chocolate; Tuxedo Cake (Vanilla Frosting with Chocolate Ganache); Chocolate Mint Oreo.",
+   "url":"https://bit.ly/30XuxlT"
+    },
+    {
+    "productName":"Cocunut Cake",
+    "price":"$55",
+    "description":"This cake is a WOW! Soft cake bursting with coconut flavor--toasted coconut inside and out and a creamy cream cheese frosting.",
+    "url":"https://bit.ly/32Ybz0f"
+    },
+    {
+    "productName":"Brownie Cake",
+    "price":"$60",
+    "description":"Layers of our amazing brownies—yes, the ones with the crisp crackly top and fudgy center, covered in our creamy Fudge frosting.",
+    "url":"https://bit.ly/2Ystyc1"
+    },
+    {
+    "productName":"VanillaPop",
+    "price":"$12 for a dozen",
+    "description":" Vanilla cake and icing, dipped in a pink chocolaty coating with white sprinkles.",
+    "url":"https://bit.ly/2OkPYvO" 
+    },
+    {
+    "productName":"CocoPop",
+    "price":"$12 per dozen",
+    "description":"Chocolate cake mixed with chocolate butter cream, dipped in dark chocolate.",
+    "url":"https://bit.ly/2GvJRym" 
+    },
+    {
+    "productName":"BirthdayPop",
+    "price":"$12 per dozen",
+    "description":"Confeetti cake, dipped in white chocolate and topped with sugar sprinkles.",
+    "url":"https://bit.ly/2GxKxU9"
+    },
+    {
+    "productName":"Chocolate",
+    "price":"$30 for a dozen",
+    "description":"Flourless dark chocolate cake topped with a chocolate ganache rose and powdered sugar.",
+    "url":"https://bit.ly/2Ytuy3p" 
+    },
+    {
+    "productName":"Pumpkin",
+    "price":"$30 for a dozen",
+    "description":"These Pumpkin cupcakes are no exception and I could just sit with a spoon and eat this creamy good cupcake.",
+    "url":"https://bit.ly/2YnwVkf"
+    },
+    {
+    "productName":"Unicorn",
+    "price":"$30 for a dozen",
+    "description":"Vanilla cake decorated as a unicorn, topped with a swirl of cream cheese frosting.",
+    "url":"https://bit.ly/2Mh3UEm"
+    },
+    {
+    "productName":"SeaShell",
+    "price":"$25 for a dozen",
+    "description":"SeaShell is perfect balance of salty and sweet. Sea Salt Caramel Buttercreme with a Creamy Caramel Center.",
+    "url":"https://bit.ly/2JVGGCi"
+    },
+    {
+    "productName":"Cocoa",
+    "price":"$25 for a dozen",
+    "description":"Mactella is a chocolate shell with toasted hazelnut on top and a nutella infused milk chocolate ganache filling.",
+    "url":"https://bit.ly/32XfH0q"
+    },
+    {
+    "productName":"Rose",
+    "price":"$25 for a dozen",
+    "description":"Perfectly pink shells filled with a light buttercream and a strawberry fruit compote center.",
+    "url":"https://bit.ly/2SGlAug"
+    }
+]
+}
