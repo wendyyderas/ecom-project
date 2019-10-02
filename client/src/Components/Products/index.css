@@ -67,8 +67,8 @@ h1{
     display:block;
 }
 .submit:hover {
-    background-color: green;
-    border: 1px solid green;
+    background-color: lightpink;
+    border: 1px solid black;
 }
 .footer {
     display: flex;
@@ -127,3 +127,6 @@ h1{
     text-shadow: -2px 2px 0px pink;
 }
 
+@media screen and (min-width:750px){
+
+}

@@ -1,22 +1,29 @@
 import React, { Component } from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import './App.css';
-import ProductsPage from './Components/ProductsPage/product';
+import './index.css';
+import product from './Components/Products/Productslist';
+import Contact from './Components/Contact/Contact'
+import Navbar from './Components/Navbar/Navbar';
+import Footer from './Components/Footer';
+import Index from './Components/Home/home';
+import Testimony from './Components/Home/Testimony/testimony';
+
 
 class App extends Component {
 
-  constructor(){
-    super();
-    this.state={
-      
-    }
-  }
   render(){
     return (
     <Router>
-      <div>
-        <Route path="/" Component={ProductsPage}/>
-      </div>
+    
+        <Navbar />
+        <Route exact path="/" component={Index}/>
+        <Route path="/product" component={product}/>
+        <Route path="/contact" component={Contact}/>
+        <Route path="/testimony" component={Testimony}/>
+        <Footer/>
+        
+
     </Router>
     );
   }
