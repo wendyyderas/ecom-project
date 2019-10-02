@@ -40,7 +40,7 @@ app.use(function(req, res, next){
 //allows server logging
 app.use(morgan('dev'));
 
-//this is for content security headers
+//adds headers to req res to prevent cross site scripting
 app.use(helmet());
 
 //should give the product types

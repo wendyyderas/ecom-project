@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './testimony.css';
 
 class Testimony extends Component {
      constructor(props){
@@ -11,7 +12,7 @@ class Testimony extends Component {
         componentDidMount() {
             //brings in the information from the database
             fetch('/api/persons')
-            // fetch is a promis that will give you the req info
+            // fetch is a promise that will give you the req info
                 .then((res) => res.json())
                 .then(
                     (data) => {
@@ -26,17 +27,14 @@ class Testimony extends Component {
          render(){
              return( 
                  <div>
-                     <h1>Testimony</h1>
+                     <h4 className="reviews">Reviews</h4>
                      {
                          // destructering in order to use curtain info from data
                          this.state.persons.map(({LastName, FirstName, Comment})=>(
-                            <div>
-                                <p>LastName:</p>
-                                <p>{LastName}</p>
-                                <p>FirstName:</p>
-                                <p>{FirstName}</p>
-                                <p>Comment:</p>
-                                <p>{Comment}</p>
+                            <div className="people-info">
+                                 <p><strong>First Name: </strong> <span>{FirstName}</span></p>
+                                <p><strong>Last Name: </strong> <span>{LastName}</span></p>
+                                <p><strong>Comment: </strong><span>{Comment}</span></p>
                             </div> 
                          ))
                      }

@@ -49,7 +49,7 @@ class Index extends Component {
                     </p>
                     <p>Our commitment to you, the customer, is to provide delicious, fresh, made to order products, using only premium ingredients!  We use local and organic when possible.
                     </p>
-                  <button type="button" class="btn btn-who"><a href="product">Our Pasteries</a></button>
+                  <button type="button" class="btn btn-who"><a href="product">Our Pastries</a></button>
                 </div>
                   <div class="col-md-6">
                     <img class="img-fluid" src="https://bit.ly/2Y6rz1w"/>

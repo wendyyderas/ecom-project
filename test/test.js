@@ -24,3 +24,10 @@ it('returns contact content', function(done) {
         done();
     });
 });
+
+it('returns contact content', function(done) {
+    request('http://localhost:3000/product' , function(error, res, body) {
+        expect(200);
+        done();
+    });
+});
